@@ -51,4 +51,18 @@ This repository contains Python and Jupyter notebook demonstrations for syntheti
 - When modifying a notebook, preserve its narrative flow and explain material changes in markdown cells.
 
 
+## Secure Review Checklist
+1. Identify trust boundaries and user-controlled inputs
+2. Check for OWASP Top 10 risks
+3. Verify authentication and authorization handling
+4. Look for secrets, tokens, or credentials in code
+5. Review logging for sensitive data leaks
+6. Recommend mitigations with code examples
+7. Rate risk severity (Low/Medium/High)
+## Output format
+- Issue
+- Risk
+- Recommendation
+
+
 
