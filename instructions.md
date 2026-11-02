@@ -1,1 +1,2 @@
 
+Create a Jupyter notebook named `sales_visualization_demo.ipynb`. Generate 2,000 rows of reproducible synthetic retail sales data for 2025 and 2026. Include order date, region, product, channel, units sold, unit price, discount percentage, revenue, cost, profit, and customer satisfaction. Make the data realistic by including seasonality, product price differences, regional demand patterns, and reasonable random variation. Add markdown cells explaining each stage.
