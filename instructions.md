@@ -27,3 +27,28 @@ Add a final markdown section titled `Executive Summary`. Summarize the strongest
 - Add a correlation heatmap for numeric columns and explain correlation does not imply causation.
 - Export the synthetic dataset to `data/synthetic_sales.csv` and the charts to `outputs/`.
 - Optimize the notebook so all transformations are vectorized and cells run in order.
+
+
+
+
+
+# Repository instructions
+This repository contains Python and Jupyter notebook demonstrations for synthetic business-data analysis and visualization.
+- Use Python 3.11-compatible code.
+- Prefer pandas and NumPy for data manipulation, matplotlib and seaborn for visualization.
+- Set a fixed random seed whenever generating synthetic data.
+- Make synthetic datasets realistic by defining relationships between measures. Do not create every column independently.
+- Clearly label all sample data as synthetic.
+- Keep notebooks runnable from top to bottom without hidden state.
+- Organize notebooks into markdown sections: Business question, Setup, Data generation or loading, Validation, Exploration, Visualization, Insights, and Next steps.
+- Validate shape, types, missing values, duplicates, ranges, and derived calculations before analysis.
+- Use vectorized operations rather than row-by-row loops.
+- Use accessible color palettes, descriptive titles, axis labels, legends, and appropriate number formatting.
+- Avoid 3D charts and avoid pie charts with more than five categories.
+- Add annotations only when they strengthen the chart's main message.
+- Separate observations from recommendations and support every observation with a displayed calculation or chart.
+- Do not overwrite source data. Write generated files under `data/` and chart outputs under `outputs/`.
+- When modifying a notebook, preserve its narrative flow and explain material changes in markdown cells.
+
+
+
